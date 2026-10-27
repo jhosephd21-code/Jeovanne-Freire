@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de Jeovanne Freire, professor de informática.">
+  <title>Jeovanne Freire | Professor de Informática</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio">JF<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#competencias">Competências</a></li>
+        <li><a href="#aulas">Aulas</a></li>
+        <li><a href="#contato" class="nav-cta">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow">TECNOLOGIA • EDUCAÇÃO • INOVAÇÃO</p>
+        <h1>Jeovanne <span>Freire</span></h1>
+        <h2>Professor de Informática</h2>
+        <p class="hero-text">Transformando curiosidade em conhecimento e aproximando pessoas do mundo da tecnologia por meio de aulas práticas e acessíveis.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#sobre">Conheça meu trabalho</a>
+          <a class="button secondary" href="#contato">Entrar em contato</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustração decorativa de tecnologia">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="chip"><span>&lt;/&gt;</span><small>TECNOLOGIA</small></div>
+        <div class="floating-card card-top">⌨️ <span>Informática</span></div>
+        <div class="floating-card card-bottom">💡 <span>Aprender fazendo</span></div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="container two-columns">
+        <div>
+          <p class="eyebrow">QUEM SOU</p>
+          <h2>Ensinar tecnologia é abrir <span>novas possibilidades.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>Sou Jeovanne Freire, professor de informática. Meu objetivo é ajudar alunos a desenvolverem habilidades digitais, compreenderem ferramentas tecnológicas e ganharem confiança para resolver problemas usando a tecnologia.</p>
+          <p>Valorizo uma aprendizagem clara, paciente e prática, respeitando o ritmo de cada estudante e conectando os conteúdos a situações do dia a dia.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="competencias">
+      <div class="section-heading">
+        <p class="eyebrow">ÁREAS DE ATUAÇÃO</p>
+        <h2>Conhecimentos e competências</h2>
+        <p>Conteúdos que podem fazer parte das aulas e atividades de aprendizagem.</p>
+      </div>
+      <div class="cards">
+        <article class="skill-card"><div class="card-icon">🖥️</div><h3>Informática básica</h3><p>Uso do computador, organização de arquivos, sistemas operacionais e boas práticas digitais.</p></article>
+        <article class="skill-card"><div class="card-icon">📄</div><h3>Pacote Office</h3><p>Introdução a editores de texto, planilhas e apresentações para estudos e trabalho.</p></article>
+        <article class="skill-card"><div class="card-icon">🌐</div><h3>Internet e segurança</h3><p>Navegação responsável, pesquisa, privacidade e cuidados com golpes digitais.</p></article>
+        <article class="skill-card"><div class="card-icon">💻</div><h3>Desenvolvimento web</h3><p>Fundamentos de HTML, CSS e JavaScript para criar páginas e projetos simples.</p></article>
+      </div>
+    </section>
+
+    <section class="section learning" id="aulas">
+      <div class="container learning-inner">
+        <div>
+          <p class="eyebrow">METODOLOGIA</p>
+          <h2>Aprender na prática, passo a passo.</h2>
+          <p>As aulas podem combinar explicações objetivas, demonstrações, exercícios guiados e pequenos projetos. A proposta é transformar conceitos em habilidades que o aluno consiga utilizar de verdade.</p>
+        </div>
+        <div class="steps">
+          <div class="step"><span>01</span><div><h3>Compreender</h3><p>Apresentar o conceito com exemplos simples.</p></div></div>
+          <div class="step"><span>02</span><div><h3>Praticar</h3><p>Experimentar as ferramentas com orientação.</p></div></div>
+          <div class="step"><span>03</span><div><h3>Criar</h3><p>Aplicar o que foi aprendido em um projeto.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container contact" id="contato">
+      <div class="contact-panel">
+        <div>
+          <p class="eyebrow">VAMOS CONVERSAR</p>
+          <h2>Quer saber mais sobre as aulas?</h2>
+          <p>Use o formulário para escrever uma mensagem. Personalize os dados de contato no código antes de publicar o site.</p>
+        </div>
+        <form id="contactForm">
+          <label for="name">Seu nome</label>
+          <input id="name" name="name" type="text" placeholder="Digite seu nome" required>
+          <label for="email">Seu e-mail</label>
+          <input id="email" name="email" type="email" placeholder="voce@exemplo.com" required>
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" rows="4" placeholder="Como posso ajudar?" required></textarea>
+          <button class="button primary" type="submit">Preparar mensagem</button>
+          <p class="form-note" id="formNote" aria-live="polite">O formulário demonstra a interação no navegador; não envia dados para um servidor.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#inicio">JF<span>.</span></a>
+      <p>© <span id="year"></span> Jeovanne Freire · Professor de Informática</p>
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
